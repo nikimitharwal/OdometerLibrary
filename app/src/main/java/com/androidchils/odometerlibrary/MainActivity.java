@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         btn_submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.e("value",""+odometer.getFinalodometerValue());
                 tvOutPut.setText(odometer.getFinalOdometerValue());
             }
         });
